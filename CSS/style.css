@@ -1,0 +1,214 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+body{
+    padding-bottom: 60px;
+}
+@font-face {
+    font-family: 'mojFont';
+    src: url(../Font/StoryScript-Regular.ttf);
+}
+.heder{
+    background-color: #b33636;
+    margin: 0%;
+    padding: 0%;
+}
+
+.naslov{
+margin-bottom: 1%;
+margin-left: 10%;
+color: whitesmoke;
+font-size: 250%;
+}
+
+nav ul {
+    list-style: none;
+    margin-left: 10%;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 1.5%;
+    margin-bottom: 1.5%;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: large;
+}
+
+.futer{
+   color: grey;
+   text-align: center;
+   padding: 20px;
+   position: static;
+   width: 100%;         
+}
+
+.IndexNaslov{
+    margin-top: 4%;
+    font-size: 500%;
+    background-color: #b33636;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    font-family: 'mojFont';
+}
+
+.txtindx{
+    margin-top: 1%;
+}
+main{
+    margin: 0% 25%;
+}
+
+body{
+    background-color: whitesmoke
+}
+
+.opisivanje{
+  background-color: rgba(179, 54, 54, 0.7);
+  border: 1px solid #ccc;     
+  border-radius: 10px;         
+  padding: 20px;
+  margin: 5% 0%;             
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  color: black;
+}
+
+.opisivanje p{
+    font-size: 240%;
+}
+
+nav ul li:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+
+.kontaktforma{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.kforma{
+    margin: 5% 0%;
+}
+
+.kontaktforma1 input, 
+.kontaktforma1 textarea{
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;  
+}
+
+button{
+    background-color: #b33636;
+    padding: 1.5%;
+    border-radius: 30%;
+    color: white;
+    font-weight: bold;
+    font-size: 100%;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.kontaktforma1 input:focus, 
+.kontaktforma1 textarea:focus{
+    border: 1.5px blue solid;
+}
+
+
+
+.onama{
+    margin: 2% 10%;
+    background-color: whitesmoke;
+    padding: 5%;
+    border: 2px solid #b33636;
+}
+
+.boldonama{
+    font-weight: bold;
+}
+
+.onama p{
+    font-size: 160%;
+}
+
+.onama p ul li{
+    font-size: 120%;
+}
+
+.kontent{
+    padding: 20px;
+}
+
+
+.onama .Ikonice{
+  margin-right: 15px;   
+  transition: transform 0.3s;
+  vertical-align: middle; 
+  opacity: 0.8;
+}
+
+.onama .Ikonice:hover{
+    transform: scale(1.2); 
+    opacity: 1;
+}
+
+
+.ponuda .slika img{
+  width: 100%;          
+  height: 10%;        
+  object-fit: cover;    
+  display: block;
+  margin-top: 5%;
+  border: #b33636 2px solid;
+  border-radius: 10%;
+  
+}
+
+.info h3{
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
+
+.info p{
+    margin-bottom: 1%;
+}
+
+.anim {
+  position: fixed;          
+  top: 78%;               
+  left: -100px;             
+  width: 100px;             
+  animation: voznja 5s linear infinite;
+}
+
+@keyframes voznja {
+  0% {
+    left: -120px;           
+  }
+  50% {
+    left: calc(100% - 100px); 
+  }
+  100% {
+    left: -120px;           
+  }
+}
