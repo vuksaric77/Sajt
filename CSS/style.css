@@ -212,3 +212,17 @@ button:hover{
     left: -120px;           
   }
 }
+.tiktok-player-wrap {
+  width: 100%;
+  max-width: 340px;
+  margin: 20px auto;
+}
+
+.tiktok-player-wrap iframe {
+  width: 100%;
+  aspect-ratio: 325 / 578;
+  height: auto;
+  border: 0;
+  border-radius: 12px;
+  display: block;
+}
